@@ -1,0 +1,52 @@
+body {
+  height: 2000px;
+  margin: 0;
+}
+.fork_to_git {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+.bar {
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+  margin: auto auto 10px auto;
+  color: #fafafa;
+  text-align: center;
+}
+.placeholder:nth-child(1) {
+  height: 200px;
+}
+.bar:nth-child(2) {
+  background-color: #333333;
+}
+.bar:nth-child(4) {
+  background-color: #3b3b3b;
+}
+.bar:nth-child(6) {
+  background-color: #404040;
+}
+.bar:nth-child(8) {
+  background-color: #454545;
+}
+.bar:nth-child(10) {
+  background-color: #4a4a4a;
+}
+.bar:nth-child(12) {
+  background-color: #4f4f4f;
+}
+.placeholder {
+  width: 76%;
+  margin: 10px auto;
+  text-align: justify;
+}
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  z-index: 101;
+  position: relative;
+}
